@@ -1,1 +1,2 @@
-alias cat bat
+alias cat=bat
+alias top=htop

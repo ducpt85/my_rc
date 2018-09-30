@@ -1,13 +1,17 @@
-# install zsh first, then continue below
-
-git clone --recursive https://github.com/sorin-ionescu/prezto.git ~/.zprezto
-# Create links to zsh config files
-    ln -s ~/.zprezto/runcoms/zlogin ~/.zlogin
-    ln -s ~/.zprezto/runcoms/zlogout ~/.zlogout
-    ln -s ~/.zprezto/runcoms/zpreztorc ~/.zpreztorc
-    ln -s ~/.zprezto/runcoms/zprofile ~/.zprofile
-    ln -s ~/.zprezto/runcoms/zshenv ~/.zshenv
-    ln -s ~/.zprezto/runcoms/zshrc ~/.zshrc
+# install zsh
 
 chsh -s /bin/zsh
 
+cp ~/my_rc/Mackup/.mackup.cfg ~/
+
+https://github.com/lra/mackup/
+mackup restore
+
+git clone --recursive https://github.com/sorin-ionescu/prezto.git ~/.zprezto
+
+https://github.com/sharkdp/bat
+
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+http://hisham.hm/htop/index.php?page=downloads

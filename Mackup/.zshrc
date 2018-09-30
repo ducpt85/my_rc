@@ -12,3 +12,5 @@ fi
 
 # Customize to your needs...
 source ~/my_rc/my_rc_alias.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
