@@ -13,6 +13,8 @@ fi
 # Customize to your needs...
 source ~/my_rc/my_rc_alias.sh
 source ~/my_rc/my_rc_env.sh
-[ -f ~/.localrc ] && source ~/.localrc
 
+PATH=$PATH:~/dev/bin
+
+[ -f ~/.localrc ] && source ~/.localrc
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
