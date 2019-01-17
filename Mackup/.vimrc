@@ -13,6 +13,7 @@ let g:SimpylFold_docstring_preview=1
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
+set encoding=utf-8
 
 " Enable folding with the spacebar
 nnoremap <space> za
